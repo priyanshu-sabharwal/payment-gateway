@@ -1,0 +1,182 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+  }
+
+  /* Headings */
+  
+  .big-heading{
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 2 rem;
+    line-height: 1.8;
+    padding-top:10%;
+    background-color: #ffffff52;
+  }
+
+ .sub-heading{
+   background-color: #ffffff52;
+ }
+
+
+  /* Sections */
+
+
+  /*nav-bar*/
+
+  .nav-section
+  {
+    height:120px;
+    background-color: #585858;
+  }
+
+  .navbar{
+    padding: 0 0 4.5rem;
+    width: 100%;
+    align-items: center;
+  }
+  
+  .navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 3rem;
+    font-weight: 1000;
+    font-weight: bolder;
+  }
+  
+  .nav-item{
+    padding: 0 18px; 
+  }
+  
+  .nav-link{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: underline;
+  }
+
+  /*home-section*/
+
+  .home-section{
+    height:28em;
+    background-image:url('bg.PNG' );
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+    color:rgb(0, 0, 0);
+  }
+
+  #home .container-fluid{
+    text-align: left;
+    padding: 3% 15% 7%;
+  } 
+
+  /*about-section*/
+
+  .about-section{
+    background-color: #150844dc;
+    height: 30em;
+    color:  rgb(251, 253, 124);
+  }
+
+  .about-heading
+  {
+    color:  rgb(240, 73, 217);
+  }
+
+  .about-img
+  {
+    width:40%;
+    margin: 10px;
+    border-radius: 20%;
+    border: 5px #000;
+  }
+
+.about-txt
+{
+  padding-left: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+  /* vision-section*/
+
+  .vision-section{
+    background-color: #fff;
+  }
+
+  .test-text{
+    color: rgb(73, 0, 80);
+    padding-top: 16px;
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+  
+  .test-heading
+  {
+    color: rgb(3, 1, 95);
+  }
+
+  .test-img{
+    width: 40%;
+    border-radius: 100%;
+    margin: 20px;
+  } 
+
+.carousel-control-prev-icon,.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  background-image: none;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: red;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: red;
+}
+  
+  /* Footer Section */
+
+  .contact-section{
+    font-size: 5vh;
+    background-color: #4e4c4cdc;
+  }
+
+  p{
+    color: #14e6e6;
+  }
+ 
+  /* Media Queries */
+  
+   @media (max-width:1058px) {
+    #home h1,h3,h2{
+      text-align: center;
+    }
+    .big-heading,.sub-heading,.about-txt
+    {
+      font-size:xx-small;
+    }
+    .test-text
+    {
+      font-size: 1rem;
+    }
+   .contact-section
+   {
+     font-size: x-small;
+   }
+    .navbar-brand
+    {
+      font-size: 1.8rem;
+    }
+    .test-img,.about-img
+    {
+      width: 50%;
+      margin-left: 30%;
+    }
+   }
+  
